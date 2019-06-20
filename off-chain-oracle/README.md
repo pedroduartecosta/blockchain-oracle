@@ -1,6 +1,3 @@
-# weather-oracle-service
-oracle service for getting weather data and relaying it to a smart contract
-
 ## Install dependencies
 
 Use `yarn` for that

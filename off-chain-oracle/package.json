@@ -1,0 +1,32 @@
+{
+  "name": "weather-oracle",
+  "version": "0.1.0",
+  "description": "oracle service for getting weather data and relaying it to a smart contract",
+  "main": "lib/index.js",
+  "scripts": {
+    "develop": "nodemon --exec babel-node src",
+    "test": "mocha --require babel-core/register",
+    "build": "rimraf lib && babel src -d lib",
+    "start": "node lib",
+    "lint": "eslint src"
+  },
+  "repository": "https://github.com/decentorganization/weather-oracle",
+  "author": "Adam Gall <adam@decentcrypto.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.5",
+    "nodemon": "^1.17.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "truffle-hdwallet-provider": "^0.0.5",
+    "web3": "^0.20.6"
+  }
+}

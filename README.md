@@ -3,7 +3,7 @@ This project intends to create a trustable oracle for the ethereum blockchain.
 
 ### Local development
 
-Launch working terminals (eos node, keosd, and app terminal):
+Launch working terminals:
 
 ```$ tmux```
 
@@ -23,7 +23,7 @@ Launch working terminals (eos node, keosd, and app terminal):
 #### Create your layout directory
 ```$ mkdir ~/.teamocil```
 
-#### Copy the [./confing/oracle.yml](https://github.com/pedroduartecosta/eos-oracle/blob/master/config/oracle.yml) configuration following to ~/.teamocil:
+#### Copy the [./scripts/oracle.yml](https://github.com/pedroduartecosta/blockchain-oracle/blob/master/scripts/oracle.yml) configuration following to ~/.teamocil:
 
 ```$ cp ./scripts/oracle.yml ~/.teamocil/```
 

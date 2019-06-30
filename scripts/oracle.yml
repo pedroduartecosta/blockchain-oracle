@@ -1,6 +1,6 @@
 windows:
   - name: oracle
-    root: /blockchain-oracle/
+    root: ./
     layout: main-vertical
     panes:
       - commands:

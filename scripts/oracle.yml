@@ -3,9 +3,9 @@ windows:
     root: /blockchain-oracle/
     layout: main-vertical
     panes:
-      #- commands:
-        #- sleep 1
-        #- ganache-cli -a 3 -d -m "stomach wage stem judge control beauty glue chapter cannon kitchen pilot orbit"
+      - commands:
+        - sleep 1
+        - ganache-cli -a 3 -d -m "stomach wage stem judge control beauty glue chapter cannon kitchen pilot orbit"
       - commands:
         - cd ./on-chain-oracle
         - cp .env.example .env

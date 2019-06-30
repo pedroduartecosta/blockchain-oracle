@@ -1,7 +1,7 @@
 {
-  "name": "weather-oracle",
+  "name": "off-chain-oracle",
   "version": "0.1.0",
-  "description": "oracle service for getting weather data and relaying it to a smart contract",
+  "description": "oracle service for getting data from an API and relaying it to a smart contract",
   "main": "lib/index.js",
   "scripts": {
     "develop": "nodemon --exec babel-node src",

@@ -1,7 +1,7 @@
 # ethereum-oracle
 This project intends to create a trustable oracle for the ethereum blockchain.
 
-## Local development
+### Local development
 
 Launch working terminals (eos node, keosd, and app terminal):
 
@@ -9,7 +9,12 @@ Launch working terminals (eos node, keosd, and app terminal):
 
 ```$ teamocil oracle```
 
-## Local development setup
+
+### Requirements:
+- [yarn](https://yarnpkg.com) ou [npm](https://www.npmjs.com/)
+- [truffle](https://www.trufflesuite.com/truffle)
+
+### Local development setup
 
 #### Install the `teamocil` Ruby gem
 ```$ gem install teamocil```

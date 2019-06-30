@@ -1,32 +1,20 @@
 windows:
   - name: oracle
-    root: /tmp/Monografia/eth-oracle/
+    root: /blockchain-oracle/
     layout: main-vertical
     panes:
       #- commands:
         #- sleep 1
         #- ganache-cli -a 3 -d -m "stomach wage stem judge control beauty glue chapter cannon kitchen pilot orbit"
       - commands:
-        - cd ./oracle-sc
+        - cd ./on-chain-oracle
         - cp .env.example .env
         - yarn install
         - truffle compile
         - truffle migrate
       - commands:
-        - cd ./oracle-server
+        - cd ./off-chain-oracle
         - cp .env.example .env
         - yarn install
         - sleep 10
-        - yarn run develop
-      - commands:
-        - cd ./oracle-server2
-        - cp .env.example .env
-        - yarn install
-        - sleep 7
-        - yarn run develop
-      - commands:
-        - cd ./oracle-server3
-        - cp .env.example .env
-        - yarn install
-        - sleep 7
         - yarn run develop

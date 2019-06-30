@@ -13,6 +13,7 @@ Launch working terminals (eos node, keosd, and app terminal):
 ### Requirements:
 - [yarn](https://yarnpkg.com) ou [npm](https://www.npmjs.com/)
 - [truffle](https://www.trufflesuite.com/truffle)
+- [ganache-cli](https://github.com/trufflesuite/ganache-cli)
 
 ### Local development setup
 
